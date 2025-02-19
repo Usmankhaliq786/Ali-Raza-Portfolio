@@ -74,7 +74,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://www.noormohmmad.com/"
+            href=" https://www.noormohmmad.com/"
             target="_blank"
           >
             <div>
