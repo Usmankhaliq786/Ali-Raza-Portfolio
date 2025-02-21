@@ -20,7 +20,7 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src="/assets/images/amazonImg.png"
+                src="/assets/images/noorShop.png"
                 alt="amazonImg"
                 width={500}
                 height={300}
