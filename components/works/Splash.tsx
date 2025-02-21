@@ -10,7 +10,7 @@ const Splash = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        MERN Stack Developer
+        Zoho Developer
         <span className="text-textGreen tracking-wide">@Upwork</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">

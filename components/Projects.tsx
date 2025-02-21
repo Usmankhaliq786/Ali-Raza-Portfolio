@@ -9,12 +9,12 @@ const Projects = () => {
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
       <SectionTitle title="Some Things I have Built" titleNo="03" />
       
-      {/* ============ Project One ================ */}
+      
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://www.lifeisgood.com"
+            href="https://us.oliviaburton.com/us/home/?country=PK"
             target="_blank"
           >
             <div>
@@ -33,7 +33,7 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">Life Is Good</h3>
+              <h3 className="text-2xl font-bold"> Olivia Burton</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
               Optimism is a practice. It empowers us to navigate the hard stuff while choosing to focus more energy on the good stuff.
@@ -60,8 +60,8 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* ============ Project Two ================ */}
-{/*         <div className="flex flex-col xl:flex-row-reverse gap-6">
+        
+        <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a className="w-full xl:w-1/2 h-auto relative group" href="https://www.noormohmmad.com/" target="_blank">
             <div>
               <Image
@@ -70,7 +70,7 @@ const Projects = () => {
                 alt="cyberImg"
                 width={500}
                 height={300}
-              /> */}
+              /> */
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
@@ -93,10 +93,10 @@ const Projects = () => {
               <a className="hover:text-textGreen duration-300" href="https://github.com/Usmankhaliq786/" target="_blank">
                 <TbBrandGithub />
               </a>
-              <a className="hover:text-textGreen duration-300" href="https://www.youtube.com/watch?v=nKZV3-PlCDU" target="_blank">
+              <a className="hover:text-textGreen duration-300" href="" target="_blank">
                 <AiOutlineYoutube />
               </a>
-              <a className="hover:text-textGreen duration-300" href="https://www.noormohmmad.com/" target="_blank">
+              <a className="hover:text-textGreen duration-300" href="" target="_blank">
                 <RxOpenInNewWindow />
               </a>
             </div>

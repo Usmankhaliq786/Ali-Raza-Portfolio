@@ -17,47 +17,44 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="React - The Complete Guide (incl Hooks, React Router, Redux) - Udemy"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.educareenglishlearningacademy.com/"
+          title="SiteGenesis Pipeline Conversion to SFRA Controllers"
+          des=" As part of this project, I successfully migrated SiteGenesis (Pipeline-based architecture) to SFRA (Controller-based architecture) in Salesforce Commerce Cloud (SFCC). This transition modernized the e-commerce platform, improving performance, maintainability, and scalability."
+          listItem={["Reactjs", "REST APIs", "ISML Templates "]}
+          link=""
         />
         <ArchiveCard
-          title="React Nanodegree - Udacity"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.noormohmmad.com/"
+          title="Salesforce OMS Integration in SFRA"
+          des=" As part of this project, I successfully integrated Salesforce Order Management System (OMS) with Salesforce Storefront Reference Architecture (SFRA) to enhance the e-commerce order lifecycle. The integration ensured seamless order processing, fulfillment, and post-purchase experiences for customers."
+          listItem={["OMS Integration", "Optimization",]}
+          link=""
         />
         <ArchiveCard
-          title="ReactBD web development company"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://reactbd.com/"
+          title="Salesforce Headless Omni-Channel Integration"
+          des="Salesforce Headless Omni-Channel Integration refers to integrating Salesforce’s Omni-Channel service into an external system (such as a custom web app, mobile app, or chatbot) without using Salesforce’s standard UI. This allows businesses to route and manage customer service requests dynamically."
+          listItem={["External System", "External System",]}
+          link=""
         />
-        <ArchiveCard
+        {/* <ArchiveCard
           title="Amazon Clone with login, cart-option and payment intrigation."
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://amazonclone.reactbd.com/"
-        />
-        <ArchiveCard
+          link=""
+        /> */}
+        {/* <ArchiveCard
           title="JSON data (example data api for test projects)"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
               laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Nextjs", "Tailwind CSS", "next-router"]}
-          link="https://jsondata.reactbd.com/"
-        />
-        <ArchiveCard
+          link=""
+        /> */}
+        {/* <ArchiveCard
           title="Dynamic Responsive Portfolio"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
           link="https://portfolioone.reactbd.com/"
-        />
+        /> */}
 
         {showMore && (
           <>
@@ -66,7 +63,7 @@ const Archive = () => {
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.1 }}
             >
-              <ArchiveCard
+              {/* <ArchiveCard
                 title="OREBI e-commerce Shopping store"
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
@@ -78,8 +75,8 @@ const Archive = () => {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.2 }}
-            >
-              <ArchiveCard
+            > */}
+              {/* <ArchiveCard
                 title="Noor Online Shopping Store"
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
@@ -91,16 +88,16 @@ const Archive = () => {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
-            >
-              <ArchiveCard
+            > */}
+              {/* <ArchiveCard
                 title="Personalized Blog"
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Nextjs", "Tailwind CSS", "next-auth", "firebase"]}
                 link="https://my-blog-delta-eight.vercel.app/"
-              />
+              /> */}
             </motion.div>
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
@@ -112,8 +109,8 @@ const Archive = () => {
                 listItem={["Nextjs", "react-slick", "redux-toolkit"]}
                 link="https://shoppersyt.vercel.app/"
               />
-            </motion.div>
-            <motion.div
+            </motion.div> */}
+            {/* <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
@@ -125,8 +122,8 @@ const Archive = () => {
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
                 link="https://portfoliotwo.reactbd.com/"
               />
-            </motion.div>
-            <motion.div
+            </motion.div> */}
+            {/* <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
@@ -138,8 +135,8 @@ const Archive = () => {
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
                 link="https://portfoliothree.reactbd.com/"
               />
-            </motion.div>
-            <motion.div
+            </motion.div> */}
+            {/* <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.7 }}
@@ -151,8 +148,8 @@ const Archive = () => {
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
                 link="https://bazar.reactbd.com/"
               />
-            </motion.div>
-            <motion.div
+            </motion.div> */}
+            {/* <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
@@ -164,8 +161,8 @@ const Archive = () => {
                 listItem={["Nextjs", "Tailwind CSS", "next-auth"]}
                 link="https://blog101.reactbd.com/"
               />
-            </motion.div>
-            <motion.div
+            </motion.div> */}
+            {/* <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.9 }}
@@ -177,7 +174,7 @@ const Archive = () => {
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
                 link="https://youtubetodo.vercel.app/"
               />
-            </motion.div>
+            </motion.div> */}
           </>
         )}
       </div>
