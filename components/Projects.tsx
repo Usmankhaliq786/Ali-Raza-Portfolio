@@ -61,7 +61,7 @@ const Projects = () => {
         </div>
 
         {/* ============ Project Two ================ */}
-        <div className="flex flex-col xl:flex-row-reverse gap-6">
+{/*         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a className="w-full xl:w-1/2 h-auto relative group" href="https://www.noormohmmad.com/" target="_blank">
             <div>
               <Image
@@ -70,7 +70,7 @@ const Projects = () => {
                 alt="cyberImg"
                 width={500}
                 height={300}
-              />
+              /> */}
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
