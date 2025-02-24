@@ -50,7 +50,7 @@ const Navbar = () => {
             transition={{ duration: 0.1 }}
           >
             {/* <Image className="w-14" src={logo} alt="logo" /> */}
-            <h4>Usman Habib</h4>
+            <h4>Ali Raza</h4>
           </motion.div>
         </Link>
         {/* ============ Logo End here ============== */}
@@ -128,7 +128,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="/assets/usman_habib.pdf" target="_blank">
+          <a href="/assets/Ali_Resume.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -237,7 +237,7 @@ const Navbar = () => {
                     </motion.li>
                   </Link>
                 </ul>
-                <a href="/assets/usman_habib.pdf" target="_blank">
+                <a href="/assets/Ali_Resume.pdf" target="_blank">
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -274,7 +274,7 @@ const Navbar = () => {
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.9, ease: "easeIn" }}
-                    href="https://www.linkedin.com/in/muhmmad-usman-habib-b9aa41194/"
+                    href="https://www.linkedin.com/in/ali-raza-372350251/"
                     target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">

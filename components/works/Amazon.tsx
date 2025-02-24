@@ -11,26 +11,26 @@ const Amazon = () => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
         web Design
-        <span className="text-textGreen tracking-wide">@Amazon</span>
+        <span className="text-textGreen tracking-wide">@Upwork</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2020 - Dec 2020
+        Jan 2024 - Present
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Design Mockups: Create layout and visual mockups using tools like Figma, Sketch, or Adobe XD.
-Responsive Design: Ensure designs look great on all devices—mobile, tablet, and desktop.
-UI/UX Focus: Prioritize user experience and interface design for intuitive, attractive layouts.
-Brand Consistency: Align designs with brand colors, fonts, and style guidelines.
-Prototyping: Develop interactive prototypes to show functionality and flow.
-HTML/CSS Coding: Implement designs using clean, semantic HTML and CSS.
-SEO Basics: Optimize design for SEO with fast loading, mobile-friendliness, and accessibility.
-Testing: Check design on multiple browsers/devices and fix any layout issues.
-Client Collaboration: Communicate regularly with clients for feedback and revisions.
-These steps ensure professional, functional, and visually appealing websites.
+          I specialize in Zoho CRM, Zoho Creator, and the full Zoho suite, helping businesses automate processes, streamline workflows, and build custom solutions that drive growth and efficiency.
+
+
+Zoho One Implementation : Set up and optimize your Zoho ecosystem.
+Workflow Automation : Automate tasks and processes to save time.
+Customization & Integration : Tailor Zoho apps to fit your business needs.
+Process Management Blueprints : Design structured workflows for efficiency.
+Custom Development : Build unique solutions using Deluge & Client Scripts.
+Data Migration : Seamlessly transfer your data with accuracy.
+Training & Ongoing Support: Get expert guidance for smooth operations.
         </li>
       </ul>
     </motion.div>

@@ -19,7 +19,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
       >
-        Muhammad Usman Habib.
+        Ali Raza.
         <span className="text-textDark mt-2 lgl:mt-4">
           I build things for the web.
         </span>
@@ -31,7 +31,7 @@ const Banner = () => {
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
        Results-driven Zoho developer with 2 years of experience building high performance and scalable
-web applications. Experience with front-end technologies (JavaScript libraries, and frameworks) Ability
+web applications. Experience with front-end technologies (Python libraries, and frameworks) Ability
 to transform design concepts into responsive user interfaces Experience working with functional teams
 to deliver build software and user experiences Level up in optimizing performance and writing clean,
 approachable code.{" "}

@@ -17,20 +17,24 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="SiteGenesis Pipeline Conversion to SFRA Controllers"
-          des=" As part of this project, I successfully migrated SiteGenesis (Pipeline-based architecture) to SFRA (Controller-based architecture) in Salesforce Commerce Cloud (SFCC). This transition modernized the e-commerce platform, improving performance, maintainability, and scalability."
-          listItem={["Reactjs", "REST APIs", "ISML Templates "]}
-          link=""
+          title="AWA Group
+"
+          des="Developed a fully integrated e-commerce platform using Zoho Commerce, Zoho CRM, and Zoho Inventory.
+Implemented user authentication and restricted pricing visibility to logged-in users.
+Created an automated customer onboarding and CRM integration process.
+Integrated ClickSend SMS API for real-time chatbot support and order management."
+          listItem={["Zoho CRM", "Zoho Commerce","Zoho Inventory" ,"ClickSend SMS REST APIs"]}
+          link="https://www.awagroup.ca/"
         />
         <ArchiveCard
-          title="Salesforce OMS Integration in SFRA"
-          des=" As part of this project, I successfully integrated Salesforce Order Management System (OMS) with Salesforce Storefront Reference Architecture (SFRA) to enhance the e-commerce order lifecycle. The integration ensured seamless order processing, fulfillment, and post-purchase experiences for customers."
-          listItem={["OMS Integration", "Optimization",]}
-          link=""
+          title="One Bite University"
+          des=" I developed a user login portal for managing treatment requests. The portal allows users to sign up, receive an email invitation, and log in to submit treatment requests. Once a treatment is created, an invoice is generated, and users are redirected to the payment page. After payment, the admin is notified to start processing the request. Additionally, I integrated Zoho Billing to manage subscriptions, ensuring that users must renew or pay after a trial period to continue accessing services."
+          listItem={["Zoho Creator", "Zoho CRM","Zoho Books", "Zoho Subcsription"]}
+          link="https://www.onebite.com/"
         />
         <ArchiveCard
-          title="Salesforce Headless Omni-Channel Integration"
-          des="Salesforce Headless Omni-Channel Integration refers to integrating Salesforce’s Omni-Channel service into an external system (such as a custom web app, mobile app, or chatbot) without using Salesforce’s standard UI. This allows businesses to route and manage customer service requests dynamically."
+          title="Weslat Aslak"
+          des="I developed an automated system when a lead submits a form, it is captured in Zoho CRM and Zoho Books, triggering an automated welcome email and a booking appointment link. Upon booking, a quote is generated in real-time based on the requested services and required items. Once the customer confirms the quote, an agent is assigned to provide the service, updating any additional items used. An invoice is then sent to the customer for online payment. The system also manages service provider availability, tracks working hours, and generates monthly reports for performance monitoring."
           listItem={["External System", "External System",]}
           link=""
         />

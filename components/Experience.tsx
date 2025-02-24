@@ -65,7 +65,7 @@ const Experience = () => {
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
-          > Innovadel Technologies
+          > Technology Castle
             
           </li>
           <li
@@ -96,7 +96,7 @@ const Experience = () => {
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Upwork
+            Techloyce
           </li>
           <li
             onClick={handleAmazon}
@@ -106,7 +106,7 @@ const Experience = () => {
                 : "border-l-hoverColor text-textDark"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
-            Amazon
+            Upwork
           </li>
         </ul>
         {workReactbd && <ReactBD />}

@@ -12,11 +12,8 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Muhammad Usman Habib and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2012 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &amp;
-            CSS!
+            Hello! My name is Ali Raza and I enjoy creating things that
+            live on the internet. My interest in Data Science after my graduation in 2022 the ability to extract insights from vast amounts of information and transform them into real-world applications excites me. Data Science sits at the intersection of mathematics, programming, and domain expertise.
           </p>
           <p>
             Fast-forward to today, and I had the privilege of working at an
@@ -38,49 +35,49 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript (ES6+)
+              Python
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Salesforce OMS
+              C++
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Web services (SOAP & Restful)
+              Deluge Script
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Salesforce Omni Channel
+              JavaScript
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Storefront Reference Architecture (SFRA),
+              HTML5
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Site Genesis (SG),
+               MYSQL
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              ScienceCommerce Cloud Pipelines Conversions,
+              CSS,BootStrap
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Tailwindcss
+              Numpay, Pandas, Matplotlib, Searborn
             </li>
           </ul>
         </div>
@@ -90,7 +87,7 @@ const About = () => {
               <div className="relative w-full h-full">
                 <Image
                   className="rounded-lg object-cover"
-                  src="/assets/images/usman-habib.jpg"
+                  src="/assets/images/ali-raza.jpg"
                   alt="Profile Image"
                   fill  // This enables responsive fill to the parent div
                   sizes="(max-width: 768px) 100vw, 50vw" // Adjust this as needed
